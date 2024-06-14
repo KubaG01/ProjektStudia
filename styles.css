@@ -1,0 +1,170 @@
+* {
+    margin: auto auto;
+    padding: 0;
+    box-sizing: border-box;
+	color: #ede5db;
+	text-align: left;
+	font-size: 18px;
+	background-color: #041014;
+}
+
+/* Nawigacja */
+nav {
+	border-top: 1px solid #ede5db;
+	border-bottom: 1px solid #ede5db;
+	padding: 7px;
+	margin: 10px 20px 0px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+	text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; 
+}
+
+nav ul li a {
+    text-decoration: none;
+	font-size: 22px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sekcja główna */
+main {
+	background-color: #121A24;
+    padding: 20px;
+}
+
+/* Nagłówek & Stopka*/
+header, footer  {
+    background-color: #041014;
+	text-align: center;
+    padding: 20px;
+}
+
+/* Stylizacja tekstu */
+p {
+    text-align: justify;
+	margin: 20px;
+	padding: 10px;
+	text-indent: 2em;
+	background-color: #121A24;
+}
+
+h1, h2, h3{
+    text-align: center;
+	padding: 10px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 28px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+/* Stylizacja zdjecia */
+img {
+    height: auto;
+    display: block;
+    max-width: 100%;
+	padding: 4px;
+	border: 3px solid #ede5db;
+	margin: 40px auto;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: calc(33.33% - 20px); 
+    box-sizing: border-box;
+}
+
+.image img {
+    width: 100%;
+    display: block; 
+    border: 2px solid #ccc; 
+}
+.image img:hover {
+    filter: brightness(1.2); 
+	border-color: red; 
+	transform: scale(1.05);
+}
+
+.menu-hidden {
+    display: block;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+/* Dodajemy reguły dla tabletów */
+@media only screen and (max-width: 880px) {
+	.image {
+        width: calc(50% - 20px);
+    }
+	
+	.menu-toggle {
+		display: flex;
+		cursor: pointer;
+		margin: 0;
+    }
+	.menu-toggle .icon {
+		padding: 20px; 
+		background-color: #121A24;
+	}
+	.menu-toggle .icon::before {
+		content: "☰"; 
+}
+	.menu-toggle.active .icon::before {
+		content: "✖"; 
+	}
+	.menu-hidden {
+		display: none;
+	}
+	 nav.active {
+        display: block;
+        margin-bottom: 10px; 
+    }
+	nav ul li {
+        display: block; 
+		margin-right: 0;
+        margin-bottom: 10px; 
+		margin-top: 10px; 
+		border: 1px solid #ccc; 
+        padding: 10px;
+    }
+	nav ul li a {
+        display: block; 
+        width: 100%; 
+        height: 100%; 
+        text-decoration: none; 
+    }
+}
+
+/* Dodatkowe style dla telefonów */
+@media only screen and (max-width: 640px) {
+    .image {
+        width: calc(100% - 20px);
+    }
+}
