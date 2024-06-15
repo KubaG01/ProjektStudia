@@ -6,20 +6,20 @@ document.addEventListener("DOMContentLoaded", function() {
 			'pl': {
 				'cosmos': '🌟KOSMOS🌟',
 				'home': '🌌 Strona główna',
-                'articles': 'Artykuły',
                 'science': 'Nauka',
                 'gallery': 'Galeria',
                 'events': 'Wydarzenia',
+                'policy': 'Polityka prywatności',
                 'about': 'O nas',
                 'contact': 'Kontakt'
 			},
 			'en': {
 				'cosmos': '🌟COSMOS🌟',
 				'home': '🌌 Home',
-				'articles': 'Articles',
 				'science': 'Science',
 				'gallery': 'Gallery',
 				'events': 'Events',
+				'policy': 'Privacy Policy',
 				'about': 'About us',
 				'contact': 'Contact'
 			}
@@ -35,8 +35,47 @@ document.addEventListener("DOMContentLoaded", function() {
 					<p>Współczesna astronomia to także misje kosmiczne, takie jak Mars Rover, który bada powierzchnię Marsa, szukając śladów dawnego życia, czy misja New Horizons, która jako pierwsza zbadała Plutona i jego księżyce. Każda z tych misji przynosi nowe dane, które pomagają naukowcom zrozumieć, jak powstał i ewoluował nasz układ słoneczny.</p>
 					<p>Nie można zapomnieć o tajemniczych ciemnych materii i ciemnej energii, które stanowią większość masy wszechświata, ale wciąż pozostają nieuchwytne i niezrozumiałe. Te niewidzialne składniki wszechświata wpływają na ruch galaktyk i ekspansję kosmosu, stanowiąc jedno z największych wyzwań dla współczesnej fizyki.Zapraszam Was do eksploracji zawartości tej strony. Znajdziecie tutaj artykuły, galerie zdjęć, informacje o najnowszych wydarzeniach kosmicznych oraz wiele więcej. Niezależnie od tego, czy jesteście doświadczonymi astronomami, czy dopiero zaczynacie swoją przygodę z kosmosem, mam nadzieję, że znajdziecie tutaj coś, co Was zainspiruje.Wspólnie odkrywajmy tajemnice wszechświata i poszerzajmy nasze horyzonty wiedzy o kosmosie. Każdy nowy odkryty szczegół przybliża nas do zrozumienia, jak niesamowity i złożony jest świat, w którym żyjemy. 🌌</p>
 				`,
-                'articles': 'Tutaj będą wyświetlane artykuły.',
-                'science': 'Tutaj będzie miejsce na treści naukowe.',
+                'science': `<div><h3></h3><h2>Artykuł: Odkrywając Kosmos: Najnowsze odkrycia i zagadki wszechświata</h2>
+					<p>Kosmos fascynuje nas swoją nieskończoną przestrzenią i tajemnicami, które skrywa. Nieustannie rozwijająca się technologia oraz odwaga badaczy pozwala nam coraz głębiej zagłębiać się w jego niezbadane zakątki. Oto przegląd najnowszych odkryć i zagadek, które zdobią współczesne badania kosmosu:</p>
+
+					<h3>1. Egzoplanety: Wszystko, co powinieneś wiedzieć</h3>
+					<p>Od czasu odkrycia pierwszej egzoplanety nasze zrozumienie wszechświata znacząco się poszerzyło. Obecnie znamy tysiące planet krążących wokół innych gwiazd. Najnowsze odkrycia w tej dziedzinie wskazują na różnorodność egzoplanet oraz możliwość istnienia warunków sprzyjających życiu poza naszym Układem Słonecznym.</p>
+
+					<h3>2. Powstawanie Gwiazd: Tajemnice kosmicznych "narodzin"</h3>
+					<p>Procesy formowania gwiazd to jedne z najbardziej fascynujących zjawisk w kosmosie. Dzięki nowoczesnym teleskopom możemy obserwować, jak gęste obłoki gazu i pyłu gwiazdowego przekształcają się w nowe gwiazdy. Najnowsze badania rzucają nowe światło na te procesy, które kształtują strukturę galaktyk.</p>
+
+					<h3>3. Ciemna Materii i Energia: Nieznane siły Wszechświata</h3>
+					<p>Większość materii i energii we Wszechświecie jest niewidoczna dla ludzkiego oka. Ciemna materia oraz ciemna energia stanowią większość masy i energii Wszechświata, lecz ich natura nadal pozostaje zagadką. Nowe eksperymenty i teorie pomagają nam lepiej zrozumieć rolę tych tajemniczych składników w kosmicznych procesach.</p>
+
+					<h3>4. Teleskopy Kosmiczne: Okno na Wszechświat</h3>
+					<p>Teleskopy kosmiczne, takie jak Hubble, Spitzer czy Kepler, umożliwiają nam obserwacje kosmosu na niespotykaną dotąd skalę. Dzięki nim możemy badać odległe galaktyki, supernowe oraz najmniejsze szczegóły planet Układu Słonecznego. Najnowsze zdjęcia i dane zbierane przez te instrumenty otwierają nowe perspektywy w badaniach kosmosu.
+
+					<h3>5. Wielki Wybuch: Początki Wszechświata</h3>
+					<p>Teoria Wielkiego Wybuchu, opisująca początki naszego Wszechświata, jest jednym z najbardziej fascynujących osiągnięć współczesnej kosmologii. Badania mikrofalowego promieniowania tła oraz struktur kosmicznych pozwalają nam odtworzyć scenariusze, jakie miały miejsce zaraz po samym narodzinach Wszechświata.</p>
+
+					<h3>6. Przyszłość Badań Kosmosu: Misje i Wydarzenia</h3>
+					<p>Przyszłość badań kosmosu zapowiada się ekscytująco. Planowane misje, takie jak James Webb Space Telescope czy misje załogowe na Marsa, mają potencjał radykalnie zmienić nasze zrozumienie kosmicznych tajemnic. Śledźcie naszą stronę, aby być na bieżąco z najnowszymi osiągnięciami naukowymi i odkryciami w kosmosie.</p><h2></h2></div>
+					
+					<div><h3></h3><h2>Artykuł: Tajemnice Czarnej Dziury: Co Wiemy i Czego Nie</h2>
+					<p>Czarne dziury są jednymi z najbardziej tajemniczych i fascynujących obiektów we Wszechświecie. Ich grawitacyjne pułapki pochłaniają wszystko, co wpadnie w ich zasięg, w tym światło. Oto przegląd najnowszych odkryć i zagadek związanych z czarnymi dziurami:</p>
+
+					<h3>1. Rodzaje Czarnych Dziur: Małe, Duże i Supermasywne</h3>
+					<p>Czarne dziury występują w różnych rozmiarach. Od mikroskopijnych czarnych dziur powstałych w wyniku kolapsu gwiazd, przez średnie masywne czarne dziury w centrach galaktyk, po ogromne supermasywne czarne dziury, takie jak ta w centrum naszej Galaktyki, o masie milionów razy większej od masy Słońca.</p>
+
+					<h3>2. Powstawanie Czarnych Dziur: Zjawiska Kolapsu Gwiazd i Inne Scenariusze</h3>
+					<p>Głównym sposobem powstawania czarnych dziur jest kolaps gwiazd po wyczerpaniu się jej paliwa termojądrowego. Jednak istnieją również inne scenariusze, takie jak połączenia czarnych dziur lub akretyczne procesy formowania czarnych dziur w centrach galaktyk.</p>
+
+					<h3>3. Oddziaływanie Czarnych Dziur z Otoczeniem: Efekty i Wpływ na Kosmos</h3>
+					<p>Czarne dziury mogą mieć znaczący wpływ na otaczające je środowisko. Emitują intensywne promieniowanie rentgenowskie i gamma podczas pochłaniania materii, co czyni je ważnymi obiektami do badania i zrozumienia ewolucji galaktyk.</p>
+
+					<h3>4. Paradoks Informacyjny Hawkinga: Co Wiemy o Parowaniu Czarnych Dziur</h3>
+					<p>Stephen Hawking zaproponował teoretycznie, że czarne dziury mogą parować, co prowadzi do stopniowego ich zmniejszania się i w końcu do ich całkowitego zniknięcia. Paradoks informacyjny Hawkinga dotyczy jednak utraty informacji o pierwotnym stanie, co wciąż jest tematem intensywnych debat w świecie fizyki teoretycznej.</p>
+
+					<h3>5. Nowe Technologie Obserwacyjne: Jak Teleskopy Pomagają w Badaniach Czarnych Dziur</h3>
+					<p>Nowoczesne teleskopy, takie jak Event Horizon Telescope, pozwalają nam na bezpośrednie obserwacje czarnych dziur i ich otoczenia. Dzięki zdjęciom w wysokiej rozdzielczości możemy badać strukturę akrecyjnych dysków i potwierdzać istnienie czarnych dziur w odległych galaktykach.</p>
+
+					<h3>6. Czarna Dziura a Kosmiczna Eksploracja: Co Dalej?</h3>
+					<p>Przyszłość badań nad czarnymi dziurami zapowiada się niezwykle ekscytująco. Nowe misje i technologie pozwolą nam zgłębiać ich tajemnice oraz lepiej zrozumieć ich rolę w kształtowaniu struktury Wszechświata. Śledźcie naszą stronę, aby być na bieżąco z najnowszymi odkryciami i debatami dotyczącymi czarnych dziur.></p><h2></h2></div>`,
                 'gallery': `
 					<h2>Galeria🚀</h2>
 					<div class="gallery">
@@ -131,6 +170,29 @@ document.addEventListener("DOMContentLoaded", function() {
 				</div>
 
 				</div>`,
+				'policy':`<h2>1. Wprowadzenie</h2>
+
+						<p>Witamy na stronie https://kubag01.github.io/ProjektStudia/. Dbamy o ochronę danych osobowych i użytkowników, które się włączają, uwzględniając przepisy dotyczące ochrony danych osobowych, w tym Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób prawnych w związku z korzystaniem z danych osobowych iw sprawie swobodnego dostępu takich danych oraz korzystania z usług 95/46/WE (ogólne rozporządzenie o ochronie danych, „RODO”).
+
+						<h2>2. Zbieranie i przesyłanie danych osobowych</h2>
+
+						<p>Podczas korzystania z naszej strony internetowej można zbierać i przetwarzać różne dane osobowe, takie jak: imię, nazwisko, adres e-mail, dane kontaktowe, które dobrowolnie nam udostępniasz poprzez formularze kontaktowe czy rejestracyjne. itp. Przetwarzamy te dane do analizy trendów i zbierania danych statystycznych, które pomagają nam lepiej zrozumieć preferencje użytkowników i doskonalić nasze usługi.</p>
+
+						<h2>3. przechowywania plików cookies</h2>
+
+						<p>Nasza strona internetowa używa plików cookie w celu zapewnienia najwyższej jakości korzystania z naszych usług oraz w częstotliwości statystycznej. naruszenie z naszej strony, zgadzasz się na używanie plików cookie z naszych polityką plików cookie. Udostępnienie plików cookie w ustawieniach sieci internetowej, ale może być wykorzystane do działania innego</p>
+
+						<h2>4. Bezpieczeństwo danych</h2>
+
+						<p>Zapewniamy, że Twoje dane osobowe są odpowiednio chronione przed nieautoryzowanym dostępem, utratą, wykorzystaniem, modyfikacją czy rozpowszechnianiem. Nie sprzedajemy, nie handlujemy ani nie udostępniamy Twoich danych osobowych osobom trzecim bez Twojej zgody, chyba że jest to wymagane przez prawo.</p>
+
+						<h2>5. Twoje prawo</h2>
+
+						<p>Masz prawo do dostępu do swoich danych osobowych, ich poprawy, usuwania, ograniczania przetwarzania, przenoszenia danych oraz wnoszenia wniosków do organu nadzorczego. Możesz także w każdej chwili wycofać udzieloną wcześniej zgodę na przetwarzanie danych. W celu realizacji swoich praw lub w przypadku pytań dotyczących naszej polityki prywatności, prosimy o kontakt w celu uzyskania pomocy danych na dole</p>
+
+						<h2>6. Kontakt</h2>
+
+						<p>W razie pytań dotyczących naszej polityki prywatności lub przetwarzania danych osobowych, prosimy o kontakt pod adresem kontakt@naszastrona.pl lub bezpośrednio pod numerem +48 123 456 789</p>`,
                 'about': `<div class="gallery">
 				  <div class="image">
 					<h2></h2>
@@ -201,6 +263,15 @@ document.addEventListener("DOMContentLoaded", function() {
 						</div>
 					  </form>
 					</div><br><br>
+					`,
+					'rights':`© 2024 Jakub Głąbiak - Wszelkie prawa zastrzeżone.`,
+					'cookieAlert': `
+					<div class="cookie-alert" id="cookieAlert">
+						<p>Ta strona używa plików cookies. Korzystając ze strony, wyrażasz zgodę na używanie plików cookies. </p>
+						<p>Zapoznaj się z naszą <a href="#policy" id="policy">Polityką Prywatności:</a></p>
+						<button id="acceptBtn">Zgadzam się</button>
+						<button id="rejectBtn">Nie zgadzam się</button>
+					</div>
 					`
             },
             'en': {
@@ -213,8 +284,48 @@ document.addEventListener("DOMContentLoaded", function() {
 					<p>We cannot forget the mysterious dark matter and dark energy, which make up most of the mass of the universe but remain elusive and misunderstood. These invisible components of the universe affect the movement of galaxies and the expansion of the cosmos, representing one of the biggest challenges for modern physics. I invite you to explore the contents of this site. You will find articles, photo galleries, information about the latest cosmic events, and much more. Whether you are an experienced astronomer or just beginning your journey into space, I hope you find something here that inspires you. Together, let's discover the mysteries of the universe and expand our horizons of knowledge about the cosmos. Every new detail we uncover brings us closer to understanding how amazing and complex the world we live in is. 🌌</p>
 
                 `,
-                'articles': 'Articles will be displayed here.',
-                'science': 'This is where scientific content will be.',
+                'science': `<div><h3></h3><h2>Article: Exploring the Cosmos: Latest Discoveries and Mysteries of the Universe</h2>
+    <p>The cosmos fascinates us with its infinite space and the mysteries it holds. Constantly evolving technology and the courage of researchers allow us to delve deeper into its unexplored corners. Here is an overview of the latest discoveries and mysteries that adorn contemporary cosmological research:</p>
+    
+    <h3>1. Exoplanets: Everything You Should Know</h3>
+    <p>Since the discovery of the first exoplanet, our understanding of the universe has significantly expanded. We now know thousands of planets orbiting other stars. The latest discoveries in this field indicate the diversity of exoplanets and the possibility of conditions conducive to life beyond our Solar System.</p>
+    
+    <h3>2. Star Formation: Mysteries of Cosmic "Births"</h3>
+    <p>The processes of star formation are among the most fascinating phenomena in the cosmos. Thanks to modern telescopes, we can observe how dense clouds of gas and stardust transform into new stars. The latest research sheds new light on these processes that shape the structure of galaxies.</p>
+    
+    <h3>3. Dark Matter and Energy: Unknown Forces of the Universe</h3>
+    <p>Most of the matter and energy in the Universe is invisible to the human eye. Dark matter and dark energy constitute the majority of the mass and energy of the Universe, yet their nature remains a mystery. New experiments and theories help us better understand the role of these mysterious components in cosmic processes.</p>
+    
+    <h3>4. Space Telescopes: Window to the Universe</h3>
+    <p>Space telescopes like Hubble, Spitzer, and Kepler allow us to observe the cosmos on an unprecedented scale. They enable us to study distant galaxies, supernovae, and the smallest details of planets in the Solar System. The latest images and data collected by these instruments open new perspectives in space research.</p>
+    
+    <h3>5. Big Bang: Origins of the Universe</h3>
+    <p>The Big Bang theory, describing the origins of our Universe, is one of the most fascinating achievements of modern cosmology. Studies of microwave background radiation and cosmic structures allow us to reconstruct scenarios that occurred shortly after the birth of the Universe.</p>
+    
+    <h3>6. Future of Space Exploration: Missions and Events</h3>
+    <p>The future of space exploration looks exciting. Planned missions such as the James Webb Space Telescope and crewed missions to Mars have the potential to radically change our understanding of cosmic mysteries. Follow our website to stay up to date with the latest scientific achievements and discoveries in space.</p><h2></h2></div>
+    
+<div><h3></h3><h2>Article: Secrets of Black Holes: What We Know and What We Don't</h2>
+    <p>Black holes are among the most mysterious and fascinating objects in the Universe. Their gravitational traps absorb everything that falls within their reach, including light. Here is an overview of the latest discoveries and puzzles related to black holes:</p>
+    
+    <h3>1. Types of Black Holes: Small, Large, and Supermassive</h3>
+    <p>Black holes come in different sizes. From microscopic black holes formed by the collapse of stars, through intermediate-mass black holes in the centers of galaxies, to massive supermassive black holes, such as the one at the center of our Galaxy, with a mass millions of times that of the Sun.</p>
+    
+    <h3>2. Formation of Black Holes: Collapse of Stars and Other Scenarios</h3>
+    <p>The main way black holes form is the collapse of stars after they exhaust their nuclear fuel. However, there are also other scenarios, such as mergers of black holes or accretion processes forming black holes in the centers of galaxies.</p>
+    
+    <h3>3. Interaction of Black Holes with Their Environment: Effects and Impact on the Cosmos</h3>
+    <p>Black holes can have a significant impact on their surrounding environment. They emit intense X-ray and gamma-ray radiation when they absorb matter, making them important objects for studying and understanding the evolution of galaxies.</p>
+    
+    <h3>4. Hawking's Information Paradox: What We Know About Black Hole Evaporation</h3>
+    <p>Stephen Hawking theoretically proposed that black holes can evaporate, leading to their gradual shrinking and eventual complete disappearance. Hawking's information paradox, however, concerns the loss of information about the initial state, which remains a topic of intense debate in theoretical physics.</p>
+    
+    <h3>5. New Observational Technologies: How Telescopes Aid in Black Hole Research</h3>
+    <p>Modern telescopes, such as the Event Horizon Telescope, allow us to directly observe black holes and their surroundings. High-resolution images enable us to study the structure of accretion disks and confirm the existence of black holes in distant galaxies.</p>
+    
+    <h3>6. Black Holes and Cosmic Exploration: What's Next?</h3>
+    <p>The future of black hole research looks incredibly exciting. New missions and technologies will allow us to delve into their secrets and better understand their role in shaping the structure of the Universe. Follow our website to stay up to date with the latest discoveries and debates regarding black holes.</p><h2></h2></div>
+`,
                 'gallery': `
 					<h2>Gallery🚀</h2>
 					<div class="gallery">
@@ -310,6 +421,29 @@ document.addEventListener("DOMContentLoaded", function() {
 				</div>
 
 				`,
+				'policy':`<h2>1. Introduction</h2>
+
+					<p>Welcome to the website https://kubag01.github.io/ProjektStudia/. We prioritize the protection of personal data and user privacy, adhering to data protection regulations, including the Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation, "GDPR").</p>
+
+					<h2>2. Collection and processing of personal data</h2>
+
+					<p>When using our website, various personal data may be collected and processed, such as: name, surname, email address, contact details voluntarily provided to us through contact forms or registration forms, etc. We process this data for trend analysis and statistical purposes, which help us better understand user preferences and enhance our services.</p>
+
+					<h2>3. Storage of cookies</h2>
+
+					<p>Our website uses cookies to ensure the highest quality of service and for statistical purposes. By continuing to browse our site, you agree to the use of cookies in accordance with our cookie policy. You can manage cookies through your web browser settings, although this may affect some functionalities.</p>
+
+					<h2>4. Data security</h2>
+
+					<p>We ensure that your personal data is adequately protected against unauthorized access, loss, misuse, alteration, or disclosure. We do not sell, trade, or otherwise transfer your personal data to third parties without your consent, unless required by law.</p>
+
+					<h2>5. Your rights</h2>
+
+					<p>You have the right to access, correct, delete, restrict processing, portability of your personal data, and to lodge a complaint with a supervisory authority. You can also withdraw any previously given consent for data processing at any time. To exercise your rights or if you have questions regarding our privacy policy, please contact us using the contact details provided below.</p>
+
+					<h2>6. Contact</h2>
+
+					<p>If you have any questions about our privacy policy or the processing of personal data, please contact us at contact@ourwebsite.com or directly at +48 123 456 789.</p>`,
                 'about': `<div class="gallery">
 						<div class="image">
 							<h2></h2>
@@ -354,8 +488,8 @@ document.addEventListener("DOMContentLoaded", function() {
 					<p>Email: contact@ourwebsite.com</p>
 					<p>Phone: +48 123 456 789</p>
 					<p>Address: 1 Cosmic Street, 00-123 Warsaw, Poland</p>
-
-					<h3>Formularz kontaktowy</h3><br><br>
+					
+					<h3>Contact Form</h3><br><br>
 					<div class="contact-form">
 					  <form>
 						<div class="form-group">
@@ -379,7 +513,16 @@ document.addEventListener("DOMContentLoaded", function() {
 						</div>
 					  </form>
 					</div><br><br>
-					`
+					`,
+					'rights':`© 2024 Jakub Głąbiak - All rights reserved.`,
+					'cookieAlert': `
+					
+						<p>This website uses cookies. By using the website, you consent to the use of cookies.</p>
+						<p>Read our <a href="#policy" id="policy2">Privacy Policy:</a></p>
+						<button id="acceptBtn">Agree</button>
+						<button id="rejectBtn">Disagree</button>
+`
+
             }
         };
 		
@@ -394,9 +537,10 @@ document.addEventListener("DOMContentLoaded", function() {
 		LastLang = lang;
 		
 		 // Aktualizacja tłumaczeń dla divów
-        var ids = ['cosmos', 'home', 'articles', 'science', 'gallery', 'events', 'about', 'contact'];
+        var ids = ['cosmos', 'home', 'science', 'gallery', 'events', 'policy', 'about', 'contact','policy2',];
         ids.forEach(function(id) {
             var element = document.getElementById(id);
+			console.log(element)
             if (element) {
                 element.textContent = translationsNav[lang][id];
             }
@@ -460,9 +604,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		  // Pokazujemy alert po kliknięciu przycisku Wyślij
 		  alert('Wiadomość została wysłana');
 		});
-	  } else {
-		console.error('Formularz kontaktowy nie został znaleziony!');
-	  }
+	  } 
 	
 	
 	// Obsługa kliknięcia linków w nawigacji
@@ -491,22 +633,43 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 	
+	const acceptBtn = document.getElementById('acceptBtn');
+	const rejectBtn = document.getElementById('rejectBtn');
+
+	// Dodajemy obsługę kliknięć do przycisków
+	acceptBtn.addEventListener('click', acceptCookies);
+	rejectBtn.addEventListener('click', rejectCookies);
+
+	function acceptCookies() {
+		document.getElementById('cookieAlert').style.display = 'none'; // ukryj alert
+		// tutaj można dodać kod do ustawienia ciasteczka lub przekazania zgody do systemu
+	}
+
+	function rejectCookies() {
+		document.getElementById('cookieAlert').style.display = 'none'; // ukryj alert
+		// tutaj można dodać kod do zarządzania użytkownikami, którzy nie zgadzają się na pliki cookies
+	}
+	
     // Początkowo ustawiamy zawartość strony na stronę główną
-	setPageContent('articles','en');
     setPageContent('science','en');
     setPageContent('gallery','en');
     setPageContent('events','en');
     setPageContent('about','en');
+    setPageContent('policy','en');
+    setPageContent('cookieAlert','en');
     setPageContent('contact','en');
     setPageContent('home','en');
+    setPageContent('rights','en');
 	
-	setPageContent('articles','pl');
     setPageContent('science','pl');
     setPageContent('gallery','pl');
     setPageContent('events','pl');
     setPageContent('about','pl');
+    setPageContent('policy','pl');
+    setPageContent('cookieAlert','pl');
     setPageContent('contact','pl');
-    setPageContent('home','pl');
+    setPageContent('rights','pl');
+	setPageContent('home','pl');
 	
 });
 
