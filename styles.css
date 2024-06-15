@@ -41,25 +41,81 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+form {
+	padding: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+contact-form { 
+	margin: 0;
+	padding:0;
+	background-color: black;
+}
+
+
 .language-buttons {    
-    margin-right: 20px; /* Odległość od prawej krawędzi */
-    margin-left: 20px; /* Odległość od prawej krawędzi */
 	text-align: center;
 }
 
-.language-buttons button {
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 10px 10px;
+.language-buttons button, menu-toggle, button[type="submit"]{ 
+    padding: 10px 20px;
     cursor: pointer;
-    background-color: #121A24;
     color: #ede5db;
-    font-size: 16px;
-	text-align: center;
+	background-color: #007bff; /* Kolor tła przycisku */
+    color: #fff; /* Kolor tekstu */
+    border: none; /* Usuń obramowanie */
+    border-radius: 6px; /* Zaokrąglone rogi */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Cień dla efektu głębi */
+    text-align: center; /* Wyśrodkowanie tekstu */
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .language-buttons button:hover {
-    background-color: #35424a;
+    background-color: #0056b3; /* Kolor tła przy najechaniu */
+    transform: translateY(-2px);
+	color: #fff;
+}
+
+.icon {
+	min-width: 60px;
+	text-align: center;
+}
+
+footer {
+	margin-top: auto;
+}
+
+button { 
+	border: none;
 }
 
 /* Sekcja główna */
@@ -142,7 +198,7 @@ img {
 }
 
 /* Dodajemy reguły dla tabletów */
-@media only screen and (max-width: 970px) {
+@media only screen and (max-width: 975px) {
 	.image {
         width: calc(50% - 20px);
     }
@@ -151,10 +207,11 @@ img {
 		display: flex;
 		cursor: pointer;
 		margin: 0;
+		background-color: #007bff;
     }
 	.menu-toggle .icon {
 		padding: 20px; 
-		background-color: #121A24;
+		background-color: #007bff;
 	}
 	.menu-toggle .icon::before {
 		content: "☰"; 
