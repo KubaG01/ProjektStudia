@@ -19,6 +19,8 @@ nav {
 nav ul {
     list-style-type: none;
 	text-align: center;
+	display: flex;
+	justify-content: flex-end;
 }
 
 nav ul li {
@@ -37,6 +39,27 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
+}
+
+.language-buttons {    
+    margin-right: 20px; /* Odległość od prawej krawędzi */
+    margin-left: 20px; /* Odległość od prawej krawędzi */
+	text-align: center;
+}
+
+.language-buttons button {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 10px;
+    cursor: pointer;
+    background-color: #121A24;
+    color: #ede5db;
+    font-size: 16px;
+	text-align: center;
+}
+
+.language-buttons button:hover {
+    background-color: #35424a;
 }
 
 /* Sekcja główna */
@@ -100,7 +123,7 @@ img {
 }
 
 .image img {
-    width: 100%;
+    width: 90%;
     display: block; 
     border: 2px solid #ccc; 
 }
@@ -119,7 +142,7 @@ img {
 }
 
 /* Dodajemy reguły dla tabletów */
-@media only screen and (max-width: 880px) {
+@media only screen and (max-width: 970px) {
 	.image {
         width: calc(50% - 20px);
     }
@@ -146,6 +169,11 @@ img {
         display: block;
         margin-bottom: 10px; 
     }
+	
+	nav ul {
+    display: block;
+	}
+	
 	nav ul li {
         display: block; 
 		margin-right: 0;
@@ -159,6 +187,22 @@ img {
         width: 100%; 
         height: 100%; 
         text-decoration: none; 
+    }
+	
+	nav ul li:last-child {
+        text-align: center; /* Wyśrodkowanie elementów w rozwijanej liście */
+    }
+    
+    .language-buttons {
+        display: flex;
+        justify-content: center; /* Wyśrodkowanie przycisków */
+    }
+    
+    .language-buttons button {
+        flex: 1; /* Ustawienie przycisków tak, aby zajmowały równą część dostępnego miejsca */
+        width: 10px; 
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 
